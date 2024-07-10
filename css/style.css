@@ -1,0 +1,433 @@
+*, footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.5;
+}
+body {
+    background: #F3F5FC;
+    ;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 0 40px;
+}
+h1:hover {
+    transition: 0.2s;
+    opacity: 50%;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+textarea {
+    resize: none;
+}
+.input-texto {
+    margin-top: 85px;
+    margin-left: 15px;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 30px;
+    padding: 0.5rem;
+    color:#0A3871;
+    
+}
+
+.input-texto:hover { 
+    border: 6px solid #0A3871;
+    border-radius: 30px;
+   
+}
+
+::-webkit-input-placeholder {
+    color:#0A3871;
+   
+}
+
+:-moz-placeholder {
+   color:#0A3871;
+  
+}
+
+::-moz-placeholder {
+   color:#0A3871;  
+   
+}
+
+:-ms-input-placeholder {  
+   color:#0A3871;  
+  
+}
+
+
+.aviso{
+    width: 400px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0.8px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #495057;
+    margin-bottom: 0.8cm;
+
+}
+.informacao {
+    margin-left: 15px;
+}
+.mensagens-erro li::before {
+    content: url(/img/exclamation.png);
+    width: 16px;
+    height: 17px;
+    vertical-align:text-bottom;
+}
+.mensagens-erro li {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+
+.botoes {
+    width: Fixed (680px)px;
+    height: Hug (67px)px;
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+    opacity: 0px;
+    margin-top: 6cm;
+
+}
+   
+button {
+    width: 325px;
+    height: 60px;
+    border: 1px solid #0a3871;
+    border-radius: 25px;
+    cursor: pointer;
+}
+button:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    opacity: 80%;
+}
+.btn-codificar {
+    background-color: #0a3871;
+    color: white;
+}
+
+.btn-decodificar {
+    margin-left: 30px;
+    background-color: #d8dfe8;
+    color: #0a3871;
+}
+
+.btn-limpar {
+    background-color: #609ED4;
+    color: #FFFFFF;
+    width: Fixed (680px)px;
+    height: Hug (67px)px;
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+    opacity: 0px;
+    margin-top: 3cm;
+    border-color: #609ED4;
+}
+
+
+.container {
+    background: #FFFFFF;
+    width: 450px;
+    height: 944px;
+    top: 40px;
+    left: 1000px;
+    gap: 0px;
+    border-radius: 32px;
+    opacity: 0px;
+    box-shadow: 0px 24px 32px -8px #00000014; 
+    text-align: center;
+    margin-top: -1cm;
+}
+.resultado {
+    width: 336px;
+    height: 781px;
+    top: 72px;
+    left: 1032px;
+    margin-top: 40px;
+    border-color: #FFFFFF;
+    border-radius: 32px;
+    color: #495057;
+  
+   
+}
+
+.resultado:hover { 
+    border: 5px solid #0A3871;
+    border-radius: 30px;
+   
+}
+
+.resultado:placeholder-shown {
+    background-image: url(/img/resultado-bg-mw480.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.resultado:not(:placeholder-shown) {
+    background-color: white;
+}
+.invisivel {
+    display: none;
+}
+.btn-copiar {
+    background-color: white;
+    color: #0a3871;
+    width: Fixed (680px)px;
+    height: Hug (67px)px;
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+    opacity: 0px;
+   
+
+}
+footer {
+    text-align: center;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+}
+.redes {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    color: #356EA9;
+}
+.redes * {
+    vertical-align: middle;
+}
+.redes p {
+    margin-bottom: 15px;
+}
+.redes a {
+    margin: 5px 15px;
+    text-decoration: none;
+    color: #356EA9;
+}
+.redes a:hover {
+    transition: 0.5s;
+    opacity: 70%;
+    color: #0a3871;
+}
+.credito {
+    font-size: 16px;
+    font-weight: bold;
+    color: #356EA9;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        font-size: 20px;
+    }
+    header {
+        display: block;
+        margin: 35px 0 0 25px;
+    }
+    .main {
+        display: inline;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .input-texto {
+        margin-top: 5rem;
+        max-width: 80%;
+        height: 20%;
+    }
+    .informacao {
+        margin: 0 auto;
+    }
+    .mensagens-erro li {
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+    .aviso {
+        display: inline;
+        margin: 15px auto;
+
+    }
+    .botoes {
+        display: inline;
+        margin: 15px auto;
+    }
+    button {
+        height: 50px;
+        font-weight: bold;
+    }
+    button:hover {
+        transition: 0.5;
+        transform: none;
+        opacity: 80%;
+    }
+    .btn-codificar, .btn-decodificar {
+        width: 60%;
+        margin: 15px auto;
+    }
+    .container {
+        margin: 20px auto;
+        width: 75%;
+        height: 30%;
+        padding: 1rem;
+    }
+    .resultado {
+        width: 90%;
+        height: 30%;
+    }
+    .resultado:placeholder-shown {
+        background-image: url(  /img/resultado-bg-mw480.png);
+    }
+    .btn-copiar {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .invisivel {
+        display: none;
+    }
+
+    .btn-limpar {
+        width: 80%;
+        margin: 15px auto;
+
+    }
+    footer {
+        margin: 2rem auto;
+    }
+    .redes {
+        font-size: 16px;
+    }
+    .redes p {
+        margin-bottom: 10px;
+    }
+    .redes a {
+        margin: 5px;
+    }
+    .credito {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    * {
+        font-size: 20px;
+    }
+    header {
+        display: block;
+        margin: 20px 0 0 10px;
+    }
+    .main {
+        display: inline;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .input-texto {
+        margin-top: 1cm;
+        max-width: 60%;
+        height: 10%;
+
+    }
+    .informacao {
+        margin: 0 auto;
+    }
+    .mensagens-erro li {
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    .aviso {
+        width: Hug (242px)px;
+        height: Hug (18px)px;
+        top: 451px;
+        left: 16px;
+        gap: 8px;
+        opacity: 0px;
+        font-size: 15px ;
+
+    }
+    .botoes {
+        display: inline;
+        margin: 15px auto;
+    }
+    button {
+        height: 40px;
+        font-weight: bold;
+    }
+    button:hover {
+        transition: 0.5;
+        transform: none;
+        opacity: 80%;
+    }
+    .btn-codificar, .btn-decodificar {
+        width: 60%;
+        margin: 15px auto;
+    }
+    .container {
+        width: Fixed (327px)px;
+        height: Hug (100px)px;
+        top: 500px;
+        left: 24px;
+        padding: 32px ;
+        gap: 32px;
+        border-radius: 32px;
+        opacity: 0px;
+
+    }
+    .resultado {
+        width: Fixed (300px)px;
+        height: Hug (150px)px;
+        top: 450px;
+        left: 10px;
+        padding: 10px;
+        gap: 20px;
+        border-radius: 32px;
+        opacity: 0px;
+        padding-top: 10px;
+
+    }
+    .resultado:placeholder-shown {
+        background-image: url( /img/resultado-bg-mw480.png);
+    }
+    .btn-copiar {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .invisivel {
+        display: none;
+    }
+
+    .btn-limpar {
+        width: 60%;
+        margin: 15px auto;
+
+    }
+    footer {
+        margin: 2rem auto;
+    }
+    
+    .redes p {
+        margin-bottom: 5px;
+    }
+    .redes a {
+        margin: 5px;
+    }
+    .credito {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Codificador e decodificador de texto. Este site foi um challenge do programa ONE (Oracle Next Education) ">
+
+        <title>Decodificador de Texto</title>
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="index.html" title="Home">
+                    <img src="/img/logo-alura.png" alt="Logo da Alura."
+                    width="120" height="48" id="logo">
+                </a>
+            </h1> 
+        </header>
+
+        <main class="main">
+            <section>
+                <textarea class="input-texto" cols="40" rows="9" placeholder="Digite seu texto..." ></textarea>
+
+                <div class="informacao">
+                    <ul class="mensagens-erro"></ul>
+                </div>
+
+                <div class="botoes">
+                    <p class="aviso"><img src="/img/exclamation.png" alt="Ponto de exclamação" >Apenas letras minúsculas e sem acento!</p>
+                    <button type="button" class="btn-codificar">Criptografar</button>
+                    <button type="button" class="btn-decodificar">Descriptografar</button>
+                </div>
+            </section>
+
+            <section class="container">    
+                <textarea class="resultado" cols="20" rows="11" placeholder=" " readonly></textarea>
+                <button type="button" class="invisivel btn-copiar">Copiar</button>
+                <button class="btn-limpar" id="limpar">Limpar</button>
+            </section>
+            
+
+        </main>
+
+        <footer>
+            <div class="redes">
+            <a href="https://github.com/EloiseHelena" title="EloiseHelena | GitHub" target="_blank">            
+                <img src="/img/logo-github.png" alt="Logo do GitHub em formato circular."
+                width="45" height="45" id="github">
+            </a>
+             <a href="https://www.linkedin.com/in/eloise-helena-moraes-5b774b134/" title="Eloise Helena Moraes | LinkedIn" target="_blank">
+                <img src="img/logo-linkedin.png" alt="Logo do LinkedIn em formato circular"
+                width="45" height="45" id="linkedin">
+            </a>
+            <a href="https://www.instagram.com/helena.num4/" title="Eloise Helena Moraes (@helena.num4) | Instagram" target="_blank">
+                <img src="/img/logo-instagram.png" alt="Logo do Instagram"
+                width="45" height="45" id="instagram">
+            </a>
+            </div>
+            
+            <div class="credito">
+                <p>Desenvolvido por Eloise Helena Moraes - 2024</p>
+                <p>Challenge Programa ONE e Alura</p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="/js/script.js"></script>
+    </body>
+</html>
